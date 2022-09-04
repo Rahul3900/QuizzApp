@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/blocks.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/btn.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/button.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/cards.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/dash.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/em.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/empty.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/left.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/op.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/ph.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/drawable/ps.xml" value="0.2" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.272265625" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout-w936dp/activity_login.xml" value="0.19453125" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_c.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_category.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_ccp.xml" value="0.2453125" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_cptimer.xml" value="0.24375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_ctimer.xml" value="0.24375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_main.xml" value="0.24375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_main2.xml" value="0.19453125" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_main3.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_main4.xml" value="0.25" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_main5.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_python.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_pytimer.xml" value="0.24375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/activity_result.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/alert.xml" value="0.259375" />
+        <entry key="..\:/Users/pixel/AndroidStudioProjects/QuizzApp/app/src/main/res/layout/empty.xml" value="0.25833333333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

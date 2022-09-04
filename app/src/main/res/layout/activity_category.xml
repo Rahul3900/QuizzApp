@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3B2E1"
+    tools:context=".Category">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="#5E34AA"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:backgroundTint="#5E34AA"
+        android:layout_height="100dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="-31dp"
+        app:cardCornerRadius="34dp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="35dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#FFFFFF"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ins"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="40dp"
+        app:cardBackgroundColor="#5E34AA"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/ii" />
+
+        <RelativeLayout
+            android:id="@+id/div"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="85dp"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Instructions:-"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif"
+                android:text="* Select Category from below"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:fontFamily="sans-serif"
+                android:text="* 10 questions will pe provided"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="90dp"
+                android:fontFamily="sans-serif"
+                android:text="* 10 seconds will be given for each question"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ins"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dash">
+
+        <android.widget.Button
+            android:id="@+id/sout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/dash"
+            android:gravity="center"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/cen"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_toLeftOf="@id/cen"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardBackgroundColor="#DCD7E4"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/c" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@id/cen"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="120dp"
+            app:cardBackgroundColor="#DCD7E4"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/jva" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/cen"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:cardBackgroundColor="#DCD7E4"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/ccp"
+                android:layout_width="120dp"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:src="@drawable/ccp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_toRightOf="@id/cen"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="120dp"
+            app:cardBackgroundColor="#DCD7E4"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/python"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/python" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

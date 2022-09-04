@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090F32"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/forbelow"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/res">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularProgressBar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cpb_progress_max="10"
+            app:cpb_background_progressbar_color="#F40505"
+            app:cpb_background_progressbar_width="10dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progressbar_color="#09810E"
+            app:cpb_progressbar_width="15dp"
+            app:cpb_round_border="false" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="7/10"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <android.widget.Button
+        android:id="@+id/mm"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/forbelow"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/lay"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/dash"
+        android:gravity="center"
+        android:text="Main Menu"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <android.widget.Button
+        android:id="@+id/playag"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/forbelow"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/lay"
+        android:background="@drawable/dash"
+        android:gravity="center"
+        android:text="Play Again"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mm"
+        android:src="@drawable/child"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

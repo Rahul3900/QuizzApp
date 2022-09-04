@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/abs"
+    android:layout_height="match_parent"
+    tools:context=".Ctimer">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#ff9999"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Oops..Time Out!!!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="56dp"
+            android:src="@drawable/kindpn">
+
+        </ImageView>
+
+        <android.widget.Button
+            android:id="@+id/tryy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#E43131"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Try Again"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold">
+
+        </android.widget.Button>
+
+        <android.widget.Button
+            android:id="@+id/mn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_marginBottom="90dp"
+            android:background="@drawable/button"
+            android:backgroundTint="#E43131"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="Quit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold">
+
+        </android.widget.Button>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

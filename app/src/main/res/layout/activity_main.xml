@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB5D5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pngaa">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/appp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUIZ APP"
+        android:textColor="@color/black"
+        android:layout_below="@id/logo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/appp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:progress="@integer/material_motion_duration_short_1"
+        android:progressDrawable="@color/black"
+        android:progressTint="@color/black" />
+
+
+</RelativeLayout>

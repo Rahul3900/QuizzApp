@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDB5D5"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="EXIT"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        android:max="10"
+        android:progress="10"
+        app:indicatorColor="#FFEB3B"
+        app:trackColor="@color/white">
+
+    </com.google.android.material.progressindicator.LinearProgressIndicator>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/layout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#AD9BCD"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/quesno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="1/10"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="top"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Who invented Java Programming?"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="bold">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/card"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="#E8E5EC"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/op1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Guido van Rossum"
+            android:textAlignment="center"
+
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#E8E5EC"
+        android:id="@+id/card2"
+        android:layout_below="@id/card1"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/op2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="James Gosling"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/card3"
+        android:layout_below="@id/card2"
+        android:backgroundTint="#E8E5EC"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/op3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Dennis Ritchie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/card3"
+        android:backgroundTint="#E8E5EC"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/op4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Bjarne Stroustrup"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <android.widget.Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Next"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </android.widget.Button>
+</RelativeLayout>
